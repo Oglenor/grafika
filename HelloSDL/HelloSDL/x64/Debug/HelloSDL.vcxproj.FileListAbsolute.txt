@@ -1,4 +1,2 @@
 C:\Users\dosai\Downloads\02_HelloSDL\HelloSDL\x64\Debug\SDL2d.dll
 C:\Users\dosai\Downloads\02_HelloSDL\HelloSDL\HelloSDL\x64\Debug\HelloSDL.vcxproj.Up2Date
-C:\Users\dosai\projects\grafika\HelloSDL\x64\Debug\SDL2d.dll
-C:\Users\dosai\projects\grafika\HelloSDL\HelloSDL\x64\Debug\HelloSDL.vcxproj.Up2Date
