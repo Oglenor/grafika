@@ -81,6 +81,33 @@ int main( int argc, char* args[] )
 							0,		// kék
 							255);	// átlátszatlanság
 
+
+	// x = r * cos A, y = r * sin A
+
+
+	int centerX = 400;
+	int centerY = 300;
+
+	SDL_RenderDrawLine(ren, centerX, centerY , centerX, centerY);
+	//SCALE
+	int r = 60;
+
+	int x1 = centerX + r /*(r * cos(0))*/, y1 /*= centerY + (r * sin(0))*/,
+	x2 = centerX + (r * cos(60)), y2 = centerY + (r * sin(60));
+
+	SDL_RenderDrawLine(ren, x1, y1, x2, y2);
+	
+
+	/*
+	for (int i = 0; i < 6; i++) {
+		x1 += shift;
+		x2 += shift;
+		y1 += shift;
+		y2 += shift;
+
+		SDL_RenderDrawLine(ren, x1, y1, x2, y2);
+	}
+	*/
 	SDL_RenderDrawLine(	ren,	// renderer címe, amivel vonalat akarunk rajzolni
 						10, 10, // vonal kezdőpontjának (x,y) koordinátái
 						10, 60);// vonal végpontjának (x,y) koordinátái
@@ -88,7 +115,7 @@ int main( int argc, char* args[] )
 	SDL_RenderPresent(ren);
 
 	// várjunk 2 másodpercet
-	SDL_Delay(2000);
+	SDL_Delay(200000);
 
 	//
 	// 4. lépés: lépjünk ki
