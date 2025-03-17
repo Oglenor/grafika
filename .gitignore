@@ -9,6 +9,7 @@
 *.tlog
 *.log
 *.txt
+*.recipe
 
 # Compiled Object files
 *.slo
