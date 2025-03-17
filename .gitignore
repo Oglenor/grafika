@@ -2,6 +2,13 @@
 *.d
 
 .vs
+*.dll
+*.idb
+*.pdb
+*.ilk
+*.tlog
+*.log
+*.txt
 
 # Compiled Object files
 *.slo
